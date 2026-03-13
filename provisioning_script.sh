@@ -25,17 +25,16 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Maxclon/SDXL_Models/resolve/main/SDXL_REALISTIC_lustifySDXLNSFW_ggwpV7.safetensors"
-    # SVD-XT requires HF_TOKEN — uncomment when token is set in template
-    # "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/resolve/main/svd_xt.safetensors"
+    "https://huggingface.co/broken667/comfyui-models/resolve/main/checkpoints/lustifySDXLNSFW_ggwpV7.safetensors"
+    "https://huggingface.co/broken667/comfyui-models/resolve/main/checkpoints/svd_xt.safetensors"
 )
 
 UNET_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor&token=${CIVITAI_TOKEN}"
-    "https://civitai.com/api/download/models/707763?type=Model&format=SafeTensor&token=${CIVITAI_TOKEN}"
+    "https://huggingface.co/broken667/comfyui-models/resolve/main/loras/DetailTweakerXL.safetensors"
+    "https://huggingface.co/broken667/comfyui-models/resolve/main/loras/skin%20texture%20style%20v4.safetensors"
 )
 
 VAE_MODELS=(
